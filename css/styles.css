@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  font-family: Nexa Heavy;
+  background-color: #080625;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-color: #080625;
+  height: 100%;
+  min-height: 30%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.header #logo {
+  width: 45%;
+  max-width: 45%;
+  min-width: 360px;
+  margin: 0;
+}
