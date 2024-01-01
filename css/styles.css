@@ -127,6 +127,17 @@ h1.page-header, h6.page-header {
   border-radius: 11px;
 }
 
+.column #videos {
+  display: flex;
+  height: auto;
+  width: 670px;
+  height: 376.9px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  border-radius: 11px;
+}
+
 .column h2 {
   padding-bottom: 5px;
 }
@@ -212,6 +223,17 @@ h1.page-header, h6.page-header {
     display: flex;
     height: auto;
     width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    border-radius: 11px;
+  }
+
+  .column #videos {
+    display: flex;
+    height: auto;
+    width: 300px;
+    height: 168.8px;
     justify-content: center;
     align-items: center;
     margin-right: 5%;
