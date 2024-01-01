@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Nexa Heavy";
+  src: url("../fonts/nexa.eot") format("embedded-opentype");
+  src: url("../fonts/nexa.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   height: 100%;
   width: 100%;
