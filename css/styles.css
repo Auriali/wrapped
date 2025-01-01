@@ -118,7 +118,7 @@ h1.page-header, h6.page-header {
   width: 670px;
   color: #080625;
   background-color: white;
-  line-height: 0;
+  line-height: 15pt;
   padding: 20px;
   border-radius: 22px;
   margin: 15px;
@@ -147,11 +147,25 @@ h1.page-header, h6.page-header {
 }
 
 .column h2 {
-  padding-bottom: 5px;
+  line-height: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.column h3 {
+  margin-top: -2px;
+  margin-bottom: -8px;
+}
+
+.column h4 {
+  line-height: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .column h5 {
   margin-bottom: 15px;
+  line-height: 0;
 }
 
 .footer {
@@ -212,6 +226,7 @@ h1.page-header, h6.page-header {
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 9pt;
+    line-height: 0;
   }
 
   .column #box{
@@ -219,7 +234,7 @@ h1.page-header, h6.page-header {
     width: 300px;
     color: #080625;
     background-color: white;
-    line-height: 0;
+    line-height: 15pt;
     padding: 20px;
     border-radius: 22px;
     margin: 15px;
@@ -248,8 +263,10 @@ h1.page-header, h6.page-header {
     border-radius: 11px;
   }
 
-  .column h3, .row h3, .column h5 {
-    line-height: 15pt;
+  .column h5 {
+    margin-bottom: 8px;
+    margin-top: 15px;
+    line-height: 10pt;
   }
 }
 
